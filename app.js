@@ -7,7 +7,7 @@ const dbConfig = require("./app/config/db.config");
 const app = express();
 
 var corsOptions = {
-  origin: "https://pepul-api.herokuapp.com",
+  origin: "*",
 };
 
 app.use(cors(corsOptions));
