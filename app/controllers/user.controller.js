@@ -1,5 +1,5 @@
 exports.allAccess = (req, res) => {
-  res.status(200).send("Public Content.");
+  res.status(200).json("Public Content.");
 };
 
 exports.userBoard = (req, res) => {
@@ -7,7 +7,7 @@ exports.userBoard = (req, res) => {
 };
 
 exports.adminBoard = (req, res) => {
-  res.status(200).send("Admin Content.");
+  res.status(200).json("Admin Content.");
 };
 
 exports.moderatorBoard = (req, res) => {
