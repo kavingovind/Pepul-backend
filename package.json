@@ -2,6 +2,9 @@
   "name": "pepul",
   "version": "1.0.0",
   "description": "Pepul - Bringing people closer together",
+  "apidoc": {
+    "title": "Pepul - API documentation"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
